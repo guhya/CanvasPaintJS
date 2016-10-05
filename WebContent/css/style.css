@@ -1,0 +1,160 @@
+html, body
+{
+	height : 100%;
+}
+
+.page-header {
+	margin-top:65px;
+}
+
+.working-area
+{
+	height : 100%;
+}
+
+.wrapper
+{
+	height : 100%;
+}
+
+.canvas 
+{
+	background-color : #eee;
+	color : #000;
+	height : 100%;
+}
+
+.toolbar
+{
+	height : 100%;
+}
+
+.ew-canvas-container
+{
+	height : 100%;
+	width : 100%;
+	border : 1px solid #999;
+	padding : 5px;
+}
+
+canvas
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	border : 1px solid #999;
+}
+
+.left-button .btn
+{
+	width:100%;
+	margin-bottom:15px;
+}
+
+.btn-group{
+	width:100%;
+	margin-bottom : 15px;
+}
+
+.btn-shape .btn,
+.btn-graphic .btn
+{
+	margin-bottom:0px;
+}
+
+.btn-graphic ul,
+.btn-shape ul 
+{
+	width : 100%;
+}
+
+.left-graphic
+{
+	background-color : #fff;
+	padding : 10px 0px 0px 10px;
+}
+
+#drawing-mode-wrapper{
+	margin-top:15px;
+}
+
+#drawing-mode-wrapper .btn{
+	width:100%;
+	margin-bottom:15px;
+}
+
+.list-graphic
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list-graphic li
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom:10px;
+	margin-right:8px;
+}
+
+.list-graphic li a
+{
+	display: inline-block;
+	vertical-align: top;
+	min-width: 80px;
+	border: 1px solid #dddddd;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	position: relative;
+	text-decoration: none;
+}
+
+.list-graphic li a img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.object-controls
+{
+	margin-top:15px;
+}
+
+.object-controls .btn
+{
+	margin-right:15px;
+}
+
+.no-margin-right
+{
+	margin-right:0px !important;
+}
+
+#text-controls-additional .btn
+{
+	margin-left:5px;
+	margin-bottom:15px;
+}
+
+footer {
+    margin: 5em 0;
+}
+footer li {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em
+}
+footer p {
+    clear: left;
+    margin-bottom: 0
+}
+
+.container-fluid {
+    padding-right: 30px;
+}
